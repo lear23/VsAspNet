@@ -505,7 +505,53 @@ header .container .btn-mobile {
 .box:hover {
   background-color: #FFFFFF; 
 }
+/*------ LAPTOP----------*/
+#laptop-image{
+  background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(252, 251, 251) 50%);
+  padding: 60px;
+}
+#laptop-image .container{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+#laptop-image .container img{
+  width: 100%;
+  height: 550px;
+}
+.h1Color{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
+.h1Color .h1Black{
+  color: white;
+  padding-right: 25px;
+}
+
+/*------ TASK MASTER SECTION----------*/
+#manage .container{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  gap: 60px;
+  /* gap: 80px; */
+
+}
+.manageimage img{
+  width: 100%;
+  height: 500px;
+  padding-right: 0;
+}
+.Manage{
+  display: block;
+  justify-content: start;
+  align-items: center;
+  padding-top:100px;
+ 
+}
 
 
 /*------ FOOTER----------*/
