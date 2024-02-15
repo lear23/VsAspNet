@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/signIn.css">
+    <link rel="stylesheet" href="css/createAccount.css">
     <title>Silicon</title>
 </head>
 <body>
@@ -38,29 +38,37 @@
 
     </header>
     <main>
-         <section class="signIn">
+         <section class="createAccount">
             <div class="container">
-                <div class="sigInForm">
-                    <h1>Welcome Back</h1>
-                    <p>Don’t have an account yet? <a href="#">Sign up here.</a></p>
+                <div class="create">
+                    <h1>Create Account</h1>
+
+                    <p>Already have an acoount? <a href="#">Sign in here.</a></p>
+                    <div class="klientInfo">
+                        <div class="klientbox">
+                            <label><b>First name</b></label>
+                            <input type="text" placeholder="Enter your first name">
+                        </div>
+                        <div class="klientbox">
+                            <label><b>Last name</b></label>
+                            <input type="text" placeholder="Enter your last name">
+                        </div>
+                    </div>
                     <div class="box">
-                        <label><b>Email</b></label>
+                        <label><b>Email address</b></label>
                         <input type="email" placeholder="Enter your email address">
                     </div>
                     <div class="box">
                         <label><b>Password</b></label>
                         <input type="password" placeholder="********">
                     </div>
-                    <input type="checkbox">
-                    <label for="checkbox">Remember me</label>
-                    <a href=""><button class="btn-theme">Sign In</button></a>
-                    <p class="Pclass"><a href="">Forgot your password?</a></p>
-                    <hr>
-                    <h5><b>Or sign in with your social network</b></h5>
-                    <div class="networkButtons">
-                        <button class="btn-gray"><img src="images/bxl-google.svg" alt="">Google</button>
-                        <button class="btn-gray"><img src="images/bxl-facebook.svg" alt="">Facebook</button>
+                    <div class="box">
+                        <label><b>Confirm Password</b></label>
+                        <input type="password" placeholder="********">
                     </div>
+                    <input type="checkbox">
+                    <label for="checkbox">I agree to the <a href="#">Terms</a> & <a href="#">Conditions</a></label>
+                    <a href=""><button class="btn-theme">Sign Up</button></a>                  
                 </div>              
 
             </div>

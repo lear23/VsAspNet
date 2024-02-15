@@ -1,0 +1,146 @@
+header {
+    padding: 15px 0;
+  }
+  header .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "logo mobile";
+    gap: 40px;
+  }
+  @media (min-width: 992px) {
+    header .container {
+      grid-template-columns: auto 1fr auto auto;
+      grid-template-areas: "logo menu switch buttons";
+    }
+  }
+  header .container #logo {
+    grid-area: logo;
+  }
+  header .container #menu {
+    grid-area: menu;
+    display: none;
+  }
+  @media (min-width: 992px) {
+    header .container #menu {
+      display: block;
+    }
+  }
+  header .container #menu nav {
+    display: flex;
+    gap: 15px;
+  }
+  header .container .btn-switch {
+    grid-area: switch;
+    display: none;
+  }
+  @media (min-width: 992px) {
+    header .container .btn-switch {
+      display: block;
+    }
+  }
+  header .container .account-buttons {
+    grid-area: buttons;
+    display: none;
+    gap: 15px;
+  }
+  @media (min-width: 992px) {
+    header .container .account-buttons {
+      display: flex;
+    }
+  }
+  header .container .btn-mobile {
+    grid-area: mobile;
+    display: block;
+  }
+  @media (min-width: 992px) {
+    header .container .btn-mobile {
+      display: none;
+    }
+  }
+
+  /* ------------------------------------MAIN----------------------------------------- */
+.createAccount .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+.create{
+    display: block;
+    justify-self: center;
+    align-items: center;
+    width: 35%;    
+}
+@media (max-width: 900px) {
+    .create {
+      display: block;
+      width: 100%;
+      padding: 30px;
+    }
+}
+.klientInfo{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1200px) {
+    .klientInfo {
+      display: block;
+      width: 100%;
+    }
+}
+.klientbox{
+    display: block;   
+    
+}
+.klientbox input{
+    display: block;
+    width: 220px;
+    padding: 10px;
+    margin-top: 6px;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 8px;
+}
+@media (max-width: 1200px) {
+    .klientbox input{
+      display: block;
+      width: 100%;
+    }
+  }
+.klientbox input::placeholder {
+    font-size: 14px; 
+    color: #999; 
+}
+.box input{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(235, 235, 235);
+}
+.create button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+  /* -----------------------------------FOOTER----------------------------------------- */
+
+  footer {
+    padding: 50px 0 30px 0;
+    line-height: 160%;
+    font-weight: 400;
+    color: #565973;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px !important;
+    color: #9397AD;
+  }
+  footer .container {
+    display: block;
+    text-align: center;
+    width: 60%;
+  }
+  footer .container p{
+    font-size: 14px;
+  }
