@@ -60,26 +60,128 @@ header {
   }
 
   /* ------------------------------------MAIN----------------------------------------- */
-
+ 
 .details .container{
   display: flex;
-  margin-top: 60px;
-  
+  flex-direction: row;
+  /* justify-content: center; */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* width: 100%;   */
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.profile .controllers{
+ display: flex;
+ flex-direction: column;
+ padding-right: 5px;
+ gap: 10px;
+}
+
+.controllers button {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent; 
+  color: black;
+}
+
+.controllers button:hover {
+  background-color: #6366F1; 
+}
+
+.controllers button:hover img {
+  filter: brightness(0) invert(1); 
+}
+.controllers button img.special-icon {
+  filter: none; 
+}
+
+.controllers button:hover {
+  color: #ffffff; 
+}
+
+.colorTitle{
+  font-size: 10px;
+  color:#6366F1;
 }
 .vertical-line {
   border-left: 1px solid rgb(210, 209, 209); 
   height: auto; 
+  width: auto;
   margin: 0 10px;
-  padding: 20px 40px;
+  padding: 20px 70px;
+}
+.infoDetails{
+  display: flex;
+  flex-direction: column; 
+  width: 100%; 
+  gap: 30px;
+}
+.create{
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+.klientInfo{
+  display: flex;
+  gap: 20px;
+}
+.klientDetails{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.klientDetails input{
+  width: 100%;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+}
+.textOptional{
+  display:flex;
+  flex-direction: column;
+  gap: 15px; 
+ 
+}
+.textOptional textarea{ 
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+  padding: auto;
+ 
+}
+.acountbutton{
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
 }
 
-/* .left-div,
-.right-div {
-  flex: 1;
-} */
-
-
-
+.address{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.address input{
+  border: 1px solid rgb(235, 235, 235) ;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.postalcode{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+.postalcode input{
+  width: 100%;
+}
 
 
 /*-------------------------------------- FOOTER------------------------------------------*/

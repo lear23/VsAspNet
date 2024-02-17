@@ -30,10 +30,7 @@
                     </label>
                 <label>Dark</label>
             </div>
-            <div class="account-buttons">
-                <a href="#" class="btn-gray"><i class="fa-regular fa-right-to-bracket"></i><span>Sign in</span></a>
-                <a href="#" class="btn-theme"><i class="fa-regular fa-user"></i><span>Sign up</span></a>
-            </div>
+             <img src="images/avatarimage.svg" alt="">
         </div>
 
     </header>
@@ -50,12 +47,14 @@
                     <button class="btn-theme"><img src="images/bx-log-out.svg" alt="">Sign Out</button>
                 </div>
 
+               
+
             </div>
             <div class="vertical-line"></div>
             <div class="infoDetails">          
             
                 <div class="create">
-                    <h1>Accunt Details</h1>
+                    <h1>Account Details</h1>
                     <h5 class="colorTitle">Basic Info</h5>
                     <div class="klientInfo">
                         <div class="klientDetails">
@@ -66,6 +65,8 @@
                             <label><b>Last name</b></label>
                             <input type="text" placeholder="Enter your last name">
                         </div>
+
+                    </div>      
                         <div class="klientInfo">
                             <div class="klientDetails">
                                 <label><b>Email Address</b></label>
@@ -75,35 +76,50 @@
                                 <label><b>Phone</b></label>
                                 <input type="text" placeholder="Enter your phone">
                             </div>
-
-                            <div class="textOptionaL">
-                                <label for=""><b>Bio</b>(optional)</label>
-                                <input type="text" placeholder="Add a short bio">
-                            </div>
                         </div>
-                        <button class="btn-gray">Cancel</button>
-                        <button class="btn-theme">Save Changes</button>
+                        
+                        <div class="textOptional">
+                            <label for=""><b>Bio</b>(optional)</label>
+                          
+                            <textarea cols="10" rows="2" placeholder="Add a short bio"></textarea>
+                        </div>
+                        
+                        <div class="acountbutton">
+                            <button class="btn-gray">Cancel</button>
+                            <button class="btn-theme">Save Changes</button>
+                        </div>                       
 
-                    </div>
-                    
-                    <input type="checkbox">
-                    <label for="checkbox">I agree to the <a href="#">Terms</a> & <a href="#">Conditions</a></label>
-                    <a href=""><button class="btn-theme">Sign Up</button></a>                  
+                        
                 </div>   
                 <hr>
                 <div class="address">
                     <h5 class="colorTitle">Address</h5>
-                </div>    
-         
+
+                    <label><b>Address line 1</b></label>
+                    <input type="text" placeholder="Enter your address line">
+
+                    <label><b>Address line 2</b>(optional)</label>
+                    <input type="text" placeholder="Enter your address line">
+
+                    <div class="postalcode">
+                        <div class="addresCity">
+                            <label><b>Postal Code</b></label>
+                            <input type="text" placeholder="Enter your postal code">
+                        </div>
+                        <div class="addressCity">
+                            <label><b>City</b></label>
+                            <input type="text" placeholder="Enter your city">
+                        </div>                 
+                    </div>
+                </div>   
+                <div class="acountbutton">
+                    <button class="btn-gray">Cancel</button>
+                    <button class="btn-theme">Save Changes</button>
+                </div>
             </div>
         </div>
 
     </section>
-      
-
-       
-     
-
 </main>
 
     <footer>
@@ -118,7 +134,8 @@
         </div>
     </footer>
     
-    
+    <script src="Js/menuMobil.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -356,3 +356,12 @@ a:hover {
   background: #565973;
   color: #FFFFFF;
 }
+.blue{
+  color: #6366F1;
+}
+.red{
+  color: red;
+}
+.gray{
+  color: rgb(215, 215, 215);
+}
