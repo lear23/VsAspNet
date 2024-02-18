@@ -1,287 +1,291 @@
 <!DOCTYPE html>
 <html lang="sv-se">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/site.css">
-    <title>Silicon</title>
+
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/site.css">
+            <link rel="stylesheet" href="css/components.css">
+            <title>Silicon</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a id="logo" href="home.html"><img src="images/logo_silicon.svg" alt=""></a>
-            <div id="menu">
-                <nav>
-                    <a href="#showcase" class="menu-link">Overview</a>
-                    <a href="#features" class="menu-link">Features</a>
-                    <a href="contact.html" class="menu-link">Contact</a>
-                </nav>
-            </div>
-
-            <div class="btn-switch">
-                <label>Light</label>
-                <label for="switch-mode" class="switch">
-                    <input type="checkbox" id="switch-mode" />
-                    <div class="slider round"></div>
-                    </label>
-                <label>Dark</label>
-            </div>
-            <div class="account-buttons">
-                <a href="signIn.html" class="btn-gray"><i class="fa-regular fa-right-to-bracket"></i><span>Sign in</span></a>
-                <a href="createAccount.html" class="btn-theme"><i class="fa-regular fa-user"></i><span>Sign up</span></a>
-            </div>
-        </div>
-
-    </header>
-    <main>
-
-        <section id="showcase">
-            <img class="background-image" src="images/image-showcase.svg" alt="showcase image">
-            <div class="container">
-     
-                <div class="content">
-                    <h1 class="d4">Task Management Assistant You Gonna Love</h1>
-                    <p>We offer you a new generation of task management system. Plan, manage & track all your tasks in one flexible tool.</p>
-                    <a href="#" class="btn-theme">Get Started for free</a>
-                    <h6>Largest companies use our tool to work efficiently</h6>
-                    <div class="brands">
-                        <img src="images/brandipsum1.svg" alt="">
-                        <img src="images/brandipsum2.svg" alt="">
-                        <img src="images/brandipsum3.svg" alt="">
-                        <img src="images/brandipsum4.svg" alt="">
+    <div class="wrapper">
+            <header>
+                <div class="container">
+                    <a id="logo" href="home.html"><img src="images/logo_silicon.svg" alt=""></a>
+                    <div id="menu">
+                        <nav>
+                            <a href="#showcase" class="menu-link">Overview</a>
+                            <a href="#features" class="menu-link">Features</a>
+                            <a href="contact.html" class="menu-link">Contact</a>
+                        </nav>
                     </div>
-                </div>
-            </div>
-
-        </section>
-        <section id="features">
-            <div class="container">
-                <h1>What Do You Get with Our Tool?</h1>
-                <p>Make sure all your tasks are organized so you can set the priorities and focus on important.</p>
-                <div class="tool-features">
-                    <div class="box">
-                        <img src="images/icon.svg" alt="">
-                        <h5>Coments on Tasks</h5>
-                        <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/icon2.svg" alt="">
-                        <h5>Tasks Analytics</h5>
-                        <p>Non imperdiet facilisis nulla tellus Morbi scelerisque eget adipiscing vulputate.</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/icon3.svg" alt="">
-                        <h5>Multiple Assignees</h5>
-                        <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/icon4.svg" alt="">
-                        <h5>Notifications</h5>
-                        <p>Diam, suspendisse velit cras ac. Lobortis diam volutpat, eget pellentesque viverra.</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/icon5.svg" alt="">
-                        <h5>Sections & Subtasks</h5>
-                        <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/icon6.svg" alt="">
-                        <h5>Data Security</h5>
-                        <p>Aliquam malesuada neque eget elit nulla vestibulum nunc cras.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="laptop-image">
-            <div class="container">
-                <div class="h1Color">
-                     <!-- <h1 class="h1Black">Switch Between</h1><h1 class="h1White"> Light & Dark Mode</h1> -->
-                     <h1><span class="h1Black">Switch Between</span> Light & Dark Mode</h1>
-                </div>
-                <img src="images/Laptop.svg" alt="">
-            </div>       
-        </section>
         
-        <section id="manage">
-            <div class="container">
-                <div class="manageimage">
-                    <img src="images/taskMsterimage.svg" alt="">
+                    <div class="btn-switch">
+                        <label>Light</label>
+                        <label for="switch-mode" class="switch">
+                            <input type="checkbox" id="switch-mode" />
+                            <div class="slider round"></div>
+                            </label>
+                        <label>Dark</label>
+                    </div>
+                    <div class="account-buttons">
+                        <a href="signIn.html" class="btn-gray"><i class="fa-regular fa-right-to-bracket"></i><span>Sign in</span></a>
+                        <a href="createAccount.html" class="btn-theme"><i class="fa-regular fa-user"></i><span>Sign up</span></a>
+                    </div>
                 </div>
-                <div class="Manage">
-                    <h2>Manage Your Work</h2>
-                    <p><img src="images/bx-check-circle.svg" alt=""> Powerful project management</p>
-                    <p><img src="images/bx-check-circle.svg" alt=""> Transparent work management</p>
-                    <p><img src="images/bx-check-circle.svg" alt=""> Manage work & focus on the most important tasks</p>
-                    <p><img src="images/bx-check-circle.svg" alt=""> Track your progress with interactive charts</p>
-                    <p><img src="images/bx-check-circle.svg" alt=""> Easiest way to track time spent on tasks</p>
-
-                    <a href=""><button class="btn-theme">Learn more <img src="images/arrow.svg" alt=""></button></a>
-                </div>
-            </div>
-
-        </section>
-        <section class="download">
-            <div class="container">
-              <div class="container-mobil">
-                <div>
-                    <img class="mobil" src="images/mobilimage.svg" alt="mobil image">
-                </div>
+        
+            </header>
+            <main>
+        
+                <section id="showcase">
+                    <img class="background-image" src="images/image-showcase.svg" alt="showcase image">
+                    <div class="container">
+             
+                        <div class="content">
+                            <h1 class="d4">Task Management Assistant You Gonna Love</h1>
+                            <p>We offer you a new generation of task management system. Plan, manage & track all your tasks in one flexible tool.</p>
+                            <a href="#" class="btn-theme">Get Started for free</a>
+                            <h6>Largest companies use our tool to work efficiently</h6>
+                            <div class="brands">
+                                <img src="images/brandipsum1.svg" alt="">
+                                <img src="images/brandipsum2.svg" alt="">
+                                <img src="images/brandipsum3.svg" alt="">
+                                <img src="images/brandipsum4.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+        
+                </section>
+                <section id="features">
+                    <div class="container">
+                        <h1>What Do You Get with Our Tool?</h1>
+                        <p>Make sure all your tasks are organized so you can set the priorities and focus on important.</p>
+                        <div class="tool-features">
+                            <div class="box">
+                                <img src="images/icon.svg" alt="">
+                                <h5>Coments on Tasks</h5>
+                                <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                            </div>
+                            <div class="box">
+                                <img src="images/icon2.svg" alt="">
+                                <h5>Tasks Analytics</h5>
+                                <p>Non imperdiet facilisis nulla tellus Morbi scelerisque eget adipiscing vulputate.</p>
+                            </div>
+                            <div class="box">
+                                <img src="images/icon3.svg" alt="">
+                                <h5>Multiple Assignees</h5>
+                                <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                            </div>
+                            <div class="box">
+                                <img src="images/icon4.svg" alt="">
+                                <h5>Notifications</h5>
+                                <p>Diam, suspendisse velit cras ac. Lobortis diam volutpat, eget pellentesque viverra.</p>
+                            </div>
+                            <div class="box">
+                                <img src="images/icon5.svg" alt="">
+                                <h5>Sections & Subtasks</h5>
+                                <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                            </div>
+                            <div class="box">
+                                <img src="images/icon6.svg" alt="">
+                                <h5>Data Security</h5>
+                                <p>Aliquam malesuada neque eget elit nulla vestibulum nunc cras.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="laptop-image">
+                    <div class="container">
+                        <div class="h1Color">
+                             <!-- <h1 class="h1Black">Switch Between</h1><h1 class="h1White"> Light & Dark Mode</h1> -->
+                             <h1><span class="h1Black">Switch Between</span> Light & Dark Mode</h1>
+                        </div>
+                        <img src="images/Laptop.svg" alt="">
+                    </div>       
+                </section>
                 
-                <div class="downloadstore">
-                   
-                    <h1>Download Our App for Any Devices:</h1>
-                    <div class="downloadappar">
-                            <div class="appstore">
-                                <h6>App Store</h6>
-                                <img src="images/rating.svg" alt="">
-                                <div class="choice">
-                                    <div>
-                                       <h4>Editor's Choice</h4>
-                                       <p>rating 4.7, 187K+ reviews</p>
+                <section id="manage">
+                    <div class="container">
+                        <div class="manageimage">
+                            <img src="images/taskMsterimage.svg" alt="">
+                        </div>
+                        <div class="Manage">
+                            <h2>Manage Your Work</h2>
+                            <p><img src="images/bx-check-circle.svg" alt=""> Powerful project management</p>
+                            <p><img src="images/bx-check-circle.svg" alt=""> Transparent work management</p>
+                            <p><img src="images/bx-check-circle.svg" alt=""> Manage work & focus on the most important tasks</p>
+                            <p><img src="images/bx-check-circle.svg" alt=""> Track your progress with interactive charts</p>
+                            <p><img src="images/bx-check-circle.svg" alt=""> Easiest way to track time spent on tasks</p>
+        
+                            <a href=""><button class="btn-theme">Learn more <img src="images/arrow.svg" alt=""></button></a>
+                        </div>
+                    </div>
+        
+                </section>
+                <section class="download">
+                    <div class="container">
+                      <div class="container-mobil">
+                        <div>
+                            <img class="mobil" src="images/mobilimage.svg" alt="mobil image">
+                        </div>
+                        
+                        <div class="downloadstore">
+                           
+                            <h1>Download Our App for Any Devices:</h1>
+                            <div class="downloadappar">
+                                    <div class="appstore">
+                                        <h6>App Store</h6>
+                                        <img src="images/rating.svg" alt="">
+                                        <div class="choice">
+                                            <div>
+                                               <h4>Editor's Choice</h4>
+                                               <p>rating 4.7, 187K+ reviews</p>
+                                            </div> 
+                                                <img src="images/appstore.svg" alt="">   
+                                        </div>  
                                     </div> 
-                                        <img src="images/appstore.svg" alt="">   
-                                </div>  
-                            </div> 
-                               
-                            
-                            <div class="appstore">
-                                <h6>Google Play</h6>
-                                <img src="images/rating.svg" alt="">
-                                <div class="choice">
-                                    <div>
-                                        <h4>App of the Day</h4>
-                                        <p>rating 4.8, 30K+ reviews</p>
+                                       
+                                    
+                                    <div class="appstore">
+                                        <h6>Google Play</h6>
+                                        <img src="images/rating.svg" alt="">
+                                        <div class="choice">
+                                            <div>
+                                                <h4>App of the Day</h4>
+                                                <p>rating 4.8, 30K+ reviews</p>
+                                            </div> 
+                                                <img src="images/appstore.svg" alt="">                          
+                                        </div>
                                     </div> 
-                                        <img src="images/appstore.svg" alt="">                          
-                                </div>
+                                </div>         
+                            </div>
+                      </div>
+                    </div>
+                  
+                </section>
+        
+            <section class="integrate">
+                <div class="container">
+                    <div class="work">
+                        <h1>Integrate Top Work Tools</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                    </div>
+                    <div class="toolbox">
+                        <div class="tools">
+                            <img src="images/Google.svg" alt="">
+                            <p>Lorem magnis pretium sed 
+                                curabitur nunc facilisi nunc cursus 
+                                sagittis.</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/zoom.svg" alt="">
+                            <p>In eget a mauris quis. Tortor dui 
+                                tempus quis integer est sit 
+                                natoque placerat dolor.</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/slack.svg" alt="">
+                            <p>Id mollis consectetur congue 
+                                egestas egestas suspendisse 
+                                blandit justo.</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/gmail.svg" alt="">
+                            <p>Rutrum interdum tortor, sed at 
+                                nulla. A cursus bibendum elit purus 
+                                cras praesent</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/Trello.svg" alt="">
+                            <p>Congue pellentesque amet, viverra 
+                                curabitur quam diam scelerisque 
+                                fermentum urna</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/MailChimp.svg" alt="">
+                            <p>A elementum, imperdiet enim, 
+                                pretium etiam facilisi in aenean 
+                                quam mauris</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/dropbox.svg" alt="">
+                            <p>Ut in turpis consequat odio diam 
+                                lectus elementum. Est faucibus 
+                                blandit platea</p>
+                        </div>
+                        <div class="tools">
+                            <img src="images/evernote.svg" alt="">
+                            <p>Faucibus cursus maecenas lorem 
+                                cursus nibh. Sociis sit risus id. Sit 
+                                facilisis dolor arcu</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+             <section class="anything">
+                <div class="container">
+                    <div class="title">
+                        <h1>Don t Want to Miss Anything?</h1>
+                        <img src="images/arrowsanything.svg" alt="">
+                    </div>
+                    <div class="checksbox">
+                        <div class="checktitle">
+                            <h5>Sign up for <br>  Newsletters</h5>    
+                        </div>  
+                        <div class="inner-container">
+                            <div class="check">
+                                <input type="checkbox" id="checkbox1" name="group">
+                                <label for="checkbox">Daily Newsletter</label><br>
+                
+                                <input type="checkbox" id="checkbox2" name="group">
+                                <label for="checkbox">Event Updates</label><br>                
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="checkbox1" name="group">
+                                <label for="checkbox">Advertising Updates</label><br>
+                
+                                <input type="checkbox" id="checkbox2" name="group">
+                                <label for="checkbox">Startups Weekly</label><br>                
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="checkbox1" name="group">
+                                <label for="checkbox">Week in Review</label><br>
+                
+                                <input type="checkbox" id="checkbox2" name="group">
+                                <label for="checkbox">Podcasts</label><br>                
                             </div> 
-                        </div>         
+                        </div>            
+                                                   
                     </div>
-              </div>
-            </div>
-          
-        </section>
-
-    <section class="integrate">
-        <div class="container">
-            <div class="work">
-                <h1>Integrate Top Work Tools</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
-            </div>
-            <div class="toolbox">
-                <div class="tools">
-                    <img src="images/Google.svg" alt="">
-                    <p>Lorem magnis pretium sed 
-                        curabitur nunc facilisi nunc cursus 
-                        sagittis.</p>
-                </div>
-                <div class="tools">
-                    <img src="images/zoom.svg" alt="">
-                    <p>In eget a mauris quis. Tortor dui 
-                        tempus quis integer est sit 
-                        natoque placerat dolor.</p>
-                </div>
-                <div class="tools">
-                    <img src="images/slack.svg" alt="">
-                    <p>Id mollis consectetur congue 
-                        egestas egestas suspendisse 
-                        blandit justo.</p>
-                </div>
-                <div class="tools">
-                    <img src="images/gmail.svg" alt="">
-                    <p>Rutrum interdum tortor, sed at 
-                        nulla. A cursus bibendum elit purus 
-                        cras praesent</p>
-                </div>
-                <div class="tools">
-                    <img src="images/Trello.svg" alt="">
-                    <p>Congue pellentesque amet, viverra 
-                        curabitur quam diam scelerisque 
-                        fermentum urna</p>
-                </div>
-                <div class="tools">
-                    <img src="images/MailChimp.svg" alt="">
-                    <p>A elementum, imperdiet enim, 
-                        pretium etiam facilisi in aenean 
-                        quam mauris</p>
-                </div>
-                <div class="tools">
-                    <img src="images/dropbox.svg" alt="">
-                    <p>Ut in turpis consequat odio diam 
-                        lectus elementum. Est faucibus 
-                        blandit platea</p>
-                </div>
-                <div class="tools">
-                    <img src="images/evernote.svg" alt="">
-                    <p>Faucibus cursus maecenas lorem 
-                        cursus nibh. Sociis sit risus id. Sit 
-                        facilisis dolor arcu</p>
-                </div>
-            </div>
-        </div>
-       
-    </section>
-     <section class="anything">
-        <div class="container">
-            <div class="title">
-                <h1>Don t Want to Miss Anything?</h1>
-                <img src="images/arrowsanything.svg" alt="">
-            </div>
-            <div class="checksbox">
-                <div class="checktitle">
-                    <h5>Sign up for <br>  Newsletters</h5>    
-                </div>  
-                <div class="inner-container">
-                    <div class="check">
-                        <input type="checkbox" id="checkbox1" name="group">
-                        <label for="checkbox">Daily Newsletter</label><br>
+                    <div class="subscribecheck" >            
+                        <input type="email" class="input-with-icon"  placeholder="Your Email"> 
+                        <button class="btn-theme">Subscribe*</button>
+                    </div>    
+                    <p>*Yes, I agree to the <a href="#">terms</a> and <a href="#">privacy policy</a> .</p>      
+                </div>           
         
-                        <input type="checkbox" id="checkbox2" name="group">
-                        <label for="checkbox">Event Updates</label><br>                
+             </section>
+        
+            </main>
+        
+            <footer>
+                <div class="container">
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/?locale=sv_SE" target="_blank" class="btn-social"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/?lang=sv" target="_blank" class="btn-social"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="btn-social"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="btn-social"><i class="fa-brands fa-youtube"></i></a>
                     </div>
-                    <div class="check">
-                        <input type="checkbox" id="checkbox1" name="group">
-                        <label for="checkbox">Advertising Updates</label><br>
-        
-                        <input type="checkbox" id="checkbox2" name="group">
-                        <label for="checkbox">Startups Weekly</label><br>                
-                    </div>
-                    <div class="check">
-                        <input type="checkbox" id="checkbox1" name="group">
-                        <label for="checkbox">Week in Review</label><br>
-        
-                        <input type="checkbox" id="checkbox2" name="group">
-                        <label for="checkbox">Podcasts</label><br>                
-                    </div> 
-                </div>            
-                                           
-            </div>
-            <div class="subscribecheck" >            
-                <input type="email" class="input-with-icon"  placeholder="Your Email"> 
-                <button class="btn-theme">Subscribe*</button>
-            </div>    
-            <p>*Yes, I agree to the <a href="#">terms</a> and <a href="#">privacy policy</a> .</p>      
-        </div>           
-
-     </section>
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="social-media">
-                <a href="https://www.facebook.com/?locale=sv_SE" target="_blank" class="btn-social"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/?lang=sv" target="_blank" class="btn-social"><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" class="btn-social"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/" target="_blank" class="btn-social"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <p>&copy; 2024 Silicon. All rights reserved. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium reiciendis illum perspiciatis ab nisi dicta consectetur deleniti corrupti atque. Excepturi ad consequatur rerum ipsum sequi ab enim illum nesciunt dolores.</p>
-        </div>
-    </footer>
-    
+                    <p>&copy; 2024 Silicon. All rights reserved. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium reiciendis illum perspiciatis ab nisi dicta consectetur deleniti corrupti atque. Excepturi ad consequatur rerum ipsum sequi ab enim illum nesciunt dolores.</p>
+                </div>
+            </footer>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

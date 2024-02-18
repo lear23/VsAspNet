@@ -62,6 +62,7 @@ header {
 .coursesList .container{
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .homeIcon{
@@ -71,9 +72,7 @@ header {
     gap: 10px;
    
 }
-.homeIcon h4{    
-    margin: 0;
-}
+
 
 .courses{
     display: flex;
@@ -83,9 +82,9 @@ header {
 .courses input{
    
    margin-left: 20px;
-   border: 1px solid #33354D;
+   border: 1px solid #cecccc;
    border-radius: 8px;
-   padding: 8px 12px;
+   padding: 8px 32px;
     
 }
 
@@ -96,22 +95,48 @@ header {
     gap: 20px; 
   }
 
-  @media (max-width: 1300px){
+  @media (max-width: 1200px){
     .container-cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr); 
       gap: 20px; 
     }
   }
+  @media (max-width: 997px){
+    .container-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 20px; 
+    }
+    .cardCourses .cardImage{
+      width: 100%;
+      height: auto;
+    }
+  }
 .cardCourses{
+    position: relative;
     border: 1px solid #cdcbcb;
     border-radius: 8px;
+    z-index: 0;
    
 }
 .cardCourses .cardImage{
-  width: 100%;
+ 
+  max-width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.courseIcon{
+  position:absolute;
+  right: 20px;
+  top: 40px;
+ 
+}
+.bestSeller{
+  position: absolute;
+  top: 40px;
+  left: 20px;
 }
 .cardText{
   padding: 20px;

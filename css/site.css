@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 html, body {
   line-height: 160%;
@@ -8,7 +8,7 @@ html, body {
   font-size: 16px;
 }
 /*------ TEXT ----------*/
-.text-xs {
+/* .text-xs {
   line-height: 160%;
   font-weight: 400;
   color: #565973;
@@ -195,7 +195,7 @@ a:hover {
   text-decoration: underline;
 }
 /*------ Link ----------*/
-.menu-link {
+/* .menu-link {
   line-height: 160%;
   font-weight: 400;
   color: #565973;
@@ -210,10 +210,10 @@ a:hover {
 .menu-link .active {
   color: #6366F1;
   text-decoration: none;
-}
+} */
 
 /*------ BUTTONS----------*/
-
+/* 
 .btn-theme {
   border-radius: 6px;
   text-align: center;
@@ -355,7 +355,7 @@ a:hover {
   text-decoration: none;
   background: #565973;
   color: #FFFFFF;
-}
+} */ 
 
 /*------ HEADER----------*/
 
@@ -484,6 +484,15 @@ header .container .btn-mobile {
     padding-bottom: 0;
     width: auto; 
   }
+
+  @media (max-width:1200px) {
+    .content {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      width: auto; 
+    }
+  }
   .brands img{
     display: grid;
     padding-left: 90px;
@@ -491,6 +500,14 @@ header .container .btn-mobile {
     margin-bottom: 0;
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width:1200px) {
+  .brands img {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   padding: 0;
   }
 }
 
