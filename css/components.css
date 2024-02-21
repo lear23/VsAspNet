@@ -273,6 +273,25 @@ a:hover {
   background: #565973;
   color: #FFFFFF;
 }
+.btn-red {
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #f92a0a;
+  color: #EFF2FC;
+  border: none;
+}
+.btn-red:hover {
+  text-decoration: none;
+  background: #565973;
+  color: #FFFFFF;
+}
+
 
 .btn-switch {
   display: flex;
@@ -355,6 +374,10 @@ a:hover {
   text-decoration: none;
   background: #565973;
   color: #FFFFFF;
+}
+.colorTitle{
+  font-size: 10px;
+  color:#6366F1;
 }
 .blue{
   color: #6366F1;
