@@ -60,9 +60,110 @@ header {
   }
 
   /* ------------------------------------MAIN----------------------------------------- */
-.createAccount .container{
+
+  #createAccount .container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom:40px;
+  }
+
+form{
+    display: block;
+    justify-self: center;
+    align-items: center;
+    width: 35%;    
+}
+@media (max-width: 900px) {
+    form {
+      display: block;
+      width: 100%;
+      padding: 30px;
+    }
+}
+.klientInfo{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1200px) {
+    .klientInfo {
+      display: block;
+      width: 100%;
+    }
+}
+.klientbox{
+    display: block;   
+    
+}
+.klientbox input{
+    display: block;
+    width: 220px;
+    padding: 10px;
+    margin-top: 6px;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 8px;
+}
+@media (max-width: 1200px) {
+    .klientbox input{
+      display: block;
+      width: 100%;
+    }
+  }
+.klientbox input::placeholder {
+    font-size: 14px; 
+    color: #999; 
+}
+.box input{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(235, 235, 235);
+}
+form button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .createAccount .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -123,7 +224,7 @@ header {
 .create button{
     width: 100%;
     margin-top: 20px;
-}
+} */
 
   /* -----------------------------------FOOTER----------------------------------------- */
 

@@ -530,7 +530,7 @@ header .container .btn-mobile {
   }
   @media (max-width: 575px) {
     .tool-features {
-      grid-template-columns: repeat(1, 1fr); /* Cambia a una columna */
+      grid-template-columns: repeat(1, 1fr); 
     }
   }
   @media (min-width: 576px) {

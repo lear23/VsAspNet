@@ -1,43 +1,50 @@
-// const toggleMenu = () => {
-//     document.getElementById('menu').classList.toogle('hide');
-//     document.getElementById('account-buttons').classList.toogle('hide');
-// }
+// -----MENU HAMBUR-------
+// const nav = document.querySelector("#nav");
+// const open = document.querySelector("#open");
+// const close = document.querySelector("#close");
 
-// const checkScreenSize = () => {
-//     if (window.innerWidth >= 1200){
-//         document.getElementById('menu').classList.remove('hide');
-//         document.getElementById('account-buttons').classList.remove('hide');
+// open.addEventListener("click", () => {
+//     nav.classList.add("visible");
+//     open.style.display = "none"; 
+//     close.style.display = "block"; 
+// });
+
+// close.addEventListener("click", () => {
+//     nav.classList.remove("visible");
+//     open.style.display = "block";
+//     close.style.display = "none";
+// });
+// window.addEventListener("resize", () => {
+//     if (window.innerWidth >= 992) { 
+//         open.style.display = "none"; 
+//         nav.classList.remove("visible"); 
+//         close.style.display = "none"; 
+//     } else {
+//         open.style.display = "block"; 
 //     }
-//     else{
-//         if (!document.getElementById('menu').classList.contains('hide')) { 
-//              document.getElementById('menu').classList.add('hide');
-//         }
-//         if (!document.getElementById('account-buttons').classList.contains('hide')) { 
-//             document.getElementById('account-buttons').classList.add('hide');
-//        } 
-        
-//     }
-// };
+// });
 
-// window.addEventListener('resize', checkScreenSize);
-// checkScreenSize();
 
-document.addEventListener("DOMContentLoaded", function() {
-    var avatar = document.getElementById("avatar");
-    var avatarControls = document.getElementById("avatarControls");
-    var profile = document.querySelector(".profile");
-  
-    avatar.addEventListener("click", function() {
-      avatarControls.classList.toggle("show");
-    });
-  
-    document.addEventListener("click", function(event) {
-      if (!avatarControls.contains(event.target) && event.target !== avatar) {
-        avatarControls.classList.remove("show");
-      }
-    });
-  });
-  
 
+// ----CORS AND KEYS-------
+
+// const handleSubmit = (e => {
+//     e.preventDefault()
+
+//     console.log(e.target['email'].value)
+
+
+//     const json = JSON.stringify({email: e.target['email'].value})
+//     fetch('https://localhost:7071/api/Subscriber',{
+//         method:'post',
+//         headers:{
+//             'content.type': 'application/json'
+//         },
+//         body:json
+//     })
+//     .then(res => {
+//         console.log(res)
+//     })
+// })
 
 

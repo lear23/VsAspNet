@@ -68,17 +68,31 @@ header {
 .homeIcon{
     display: flex;
     justify-content: left;
-    padding-right: 20px;
+    align-items:center;
+    margin: 0;    
+    padding:20px 0px ;
     gap: 10px;
    
 }
-
-
-.courses{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.homeIcon img{
+  padding-bottom: 10px;
 }
+
+.courses{  
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+  }
+}
+
 .courses input{
    
    margin-left: 20px;
@@ -88,11 +102,32 @@ header {
     
 }
 
+@media (max-width: 792px) {
+  .courses input{   
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 10px;
+   
+    
+  }
+}
 
 .container-cards {
+  
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;     
+    align-items: center;
+    max-width: 1400px;
+    margin:0 auto;
+    gap: 10px; 
+  }
+  @media (max-width: 1400px) {
+    .container-cards {
+      grid-template-columns: repeat(3, minmax(300px, 1fr)); 
+      max-width: 1200px; 
+    }
   }
 
   @media (max-width: 1200px){
@@ -101,7 +136,12 @@ header {
       grid-template-columns: repeat(2, 1fr); 
       gap: 20px; 
     }
+    .cardCourses .cardImage{
+      width: 100%;
+      height: auto;
+    }
   }
+ 
   @media (max-width: 997px){
     .container-cards {
       display: grid;
@@ -113,7 +153,12 @@ header {
       height: auto;
     }
   }
+
 .cardCourses{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
     position: relative;
     border: 1px solid #cdcbcb;
     border-radius: 8px;
@@ -146,6 +191,34 @@ header {
   gap: 40px;
 }
 
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.workwithUs{
+  background-color: #eff0fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  padding: 60px 120px;
+  gap: 40px;
+  border-radius: 8px;
+}
+@media (max-width: 997px){
+  .workwithUs {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    gap: 80px; 
+  }
+  .workwithUs button{
+    margin-top: 40px;
+    display: inline-flex;
+   
+  }
+}
 
 /*-------------------------------------- FOOTER------------------------------------------*/
 
